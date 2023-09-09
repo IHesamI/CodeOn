@@ -12,7 +12,8 @@ module.exports = {
         yellow_bg:'var(--color-yellow)',
         header:'var(--color-header)',
         footer:'var(--color-footer)',
-        text:'var(--color-text)'
+        text:'var(--color-text)',
+        coursebg:'var(--color-coursebg)'
       },
       backgroundImage: {
       },

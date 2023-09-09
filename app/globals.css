@@ -8,7 +8,7 @@
     --color-yellow:#FFC436;
     --color-header:#337CCF;
     --color-text:#ffffff;
-    ;
+    --color-coursebg:#0F2C59;
   }
   :root[data-theme='light'] {
     --color-color1: 244 244 242;
@@ -16,8 +16,30 @@
 
   @layer{
     .bigcardimages{
-      @apply p-2 max-h-[200px] rounded-2xl;
+      @apply  max-h-[200px] rounded-2xl;
+    }
+    .bigslide{
+      @apply h-max
     }
   }
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #c7c7c7;
+}

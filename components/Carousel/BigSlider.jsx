@@ -16,7 +16,7 @@ export default function BigSlider({ mainbody, imgData }) {
   return (
     <div
       id="bigslider"
-      className=" ltr big-slider w-[100%] h-[300px] flex mb-[65px] vsmmobile:mb-0 vsmmobile:h-[40%]"
+      className=" ltr big-slider w-[100%] h-max flex vsmmobile:mb-0 vsmmobile:h-[40%]"
     >
       <div className="overflow-hidden relative h-[100%] my-[20px]">
         <div
