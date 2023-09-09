@@ -3,6 +3,7 @@ import React, { useRef } from "react";
 import BigSlider from "./Carousel/BigSlider";
 import Card from "./Carousel/TrendingCard";
 import CourseCard from "./Carousel/CourseCard";
+import TimerSlider from "./Carousel/TimerSlider";
 
 export default function MainPage() {
   const maindiv = useRef(null);
@@ -25,6 +26,12 @@ export default function MainPage() {
           <Card title={"c++"} image={"/dark.png"} />
         </div>
       </div>
+      {/* blog */}
+      {<TimerSlider
+      Data={[{title:'zarp' , desc:'zarp bishtar' ,image:'/wer.png'},
+      {title:'vaqean ke' , desc:'zarp bishtar' ,image:'/zarp.png'},
+      {title:'ridi' , desc:'zarp bishtar' ,image:'/dark.png'},]}
+      />}
       {/* Courses */}
       <div className="flex flex-row gap-3 justify-between">
         <CourseCard
