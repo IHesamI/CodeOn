@@ -2,9 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-/* 
-#191D88
-#1450A3
-#337CCF
-#FFC436
-*/
+:root {
+    --color-footer: #191D88;
+    --color-theme:#1450A3;
+    --color-yellow:#FFC436;
+    --color-header:#337CCF;
+    --color-text:#ffffff;
+    ;
+  }
+  :root[data-theme='light'] {
+    --color-color1: 244 244 242;
+  }
+
+  @layer{
+    .bigcardimages{
+      @apply p-2 max-h-[200px] rounded-2xl;
+    }
+  }
+
+
